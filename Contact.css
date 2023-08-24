@@ -1,0 +1,198 @@
+body{
+    margin: 0px;
+    font-family: tahoma;
+}
+header{
+    background-color: #354A21;
+    margin-left: 0px;
+}
+nav{
+    float: right;
+    margin-top: -120px;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    position: right;
+    margin-right: 10px;
+}
+nav li{
+    display: inline-flex;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    padding: 10px 10px 5px 25px;
+    background-color: white;
+    text-align: center;
+
+}
+nav a{
+    text-decoration: none;
+    color: #354A21;
+    font-size: 1.0em;
+}
+nav li:hover{
+    background-color : #354A21;
+    color : white;
+}
+nav a:hover{
+    color: white;
+}
+div p{
+    height: 20px;
+}
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(banner.png);
+    background-size: cover;
+    background-color: black;
+    height: 220px;
+    /* visibility: 70%; */
+    margin: -35px 0px 0px -20px;
+    /* padding-top: 2px; */
+}
+.banner p{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    font-size: 2em;
+}
+section{
+    display: inline-flex;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 95%;
+
+}
+section article{
+    width: 50%;
+    height: 500px;
+    border: 3px solid #354A21;
+    margin-bottom: 0px;
+}
+article div{
+    border-top: 1px solid #354A21;
+}
+.nos_adresses{
+    border: none;
+}
+.Nos_infos{
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    height: 530px;
+}
+.Nos_infos h2{
+    font-weight: bold;
+    font-size: 1.7em;
+}
+.Nos_infos h5{
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+div .haut{
+    margin-bottom: -20px;
+}
+.Vos_infos{
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-right: -40px;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 460px;
+}
+.title{
+    color: #354A21;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: -58px;
+    padding-top: -30px;
+    padding-left: 3px;
+    margin-right: 275px;
+    margin-left: 0px;
+    background-color: white;
+}
+form label{
+    font-size: 1.9em;
+    color: black;
+}
+form input{
+    width: 400px;
+    height: 35px;
+    border: 2px solid #354A21;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 1em;
+    color: black;
+}
+form input:hover{
+    background-color: #354A21;
+    color: white;
+    text-align: center;
+}
+#validation{
+    width: 400px;
+    height: 45px;
+    background-color: #354A21;
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+}
+#validation:hover{
+    background-color: white;
+    color: #354A21;
+    border:2px solid #354A21;
+    transition: color 2s;
+}
+form textarea{
+    width: 400px;
+    height: 50px;
+    border: 2px solid #354A21;
+    border-radius: 5px;
+}
+form textarea:hover{
+    background-color: #354A21;
+    color: white;
+    text-align: center;
+}
+footer{
+    background-color: #354A21;
+    margin-left: -20px;
+    padding-top: 5px;
+    height: 70px;
+    color: white;
+    margin-top: 50px;
+}
+footer p{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: rgb(27, 61, 255);
+    text-decoration: underline;
+}
+.réseaux{
+    float: right;
+    margin-top: -50px;
+    padding-right: 20px;
+}
+.réseaux img{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+.réseaux img:hover{
+    background-color: #354A21;
+    border: none;
+    width: 40px;
+    height: 40px;
+}

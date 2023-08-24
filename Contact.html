@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="logo">
+    </header> 
+    <nav>
+        <ul>
+            <a href="Acceuil.html"><li>Acceuil</li></a>
+            <a href="A propos.html"><li>A propos</li></a>
+            <a href="Tarifs.html"><li>Tarifs</li></a>
+            <a href="Contact.html"><li>Contact</li></a>
+        </ul>
+    </nav>
+    <div class="banner">
+        <p>
+            <b>Contact</b>
+        </p>
+    </div>
+    <section>
+        <article class="Nos_infos">
+            <div class="nos_adresses">
+                <h2><b>Adresse mail</b></h2>
+                <h5 class="haut">kofgym@mail.com</h5>
+                <h5>kofgym.dg@gmail.com</h5>
+            </div>
+            <div class="nos_contacts">
+                <h2><b>Téléphone</b></h2>
+                <h5 class="haut">+228 93554740</h5>
+                <h5>+228 99179270</h5>
+            </div>
+            <div class="notre_localisation">
+                <h2><b>Localisation</b></h2>
+                <address>
+                    <h5>Adidogomé Wonyomé à côté de l'église catholique. Lomé, TOGO.</h5>
+                </address>
+            </div>
+            <div class="nos_horaires">
+                <h2><b>Horaires</b></h2>
+                <h5>Lundi - Samedi: 08H à 20H</h5>
+            </div>
+        </article>
+        <article class="Vos_infos">
+            <form action="method.php" method="get">
+                <h1 class="title">Envoyer nous un message</h1>
+                <label for="nom" class="nom">Votre nom complet</label><br>
+                <input type="text" name="nom" id="nom" placeholder="Ex: JUST Desiré" size="30" maxlength="30">
+                <br><br>
+                <label for="mail" class="mail">Votre adresse email</label><br>
+                <input type="email" name="mail" id="mail" placeholder="Ex:kof@gmail.com" size="30" maxlength="30">
+                <br><br>
+                <label for="numero" class="numero">Votre numéro de téléphone</label><br>
+                <input type="tel" name="numero" id="numero" placeholder="93 55 47 40" size="12" maxlength="15">
+                <br><br>
+                <label for="vos_messgaes" class="message">Votre message</label><br>
+                <textarea name="vos_messages" id="message" cols="30" rows="10" placeholder="Comment pouvons nous vous aider"></textarea>
+                <br><br>
+                <input type="submit" name="send" id="validation" value="VALIDER">
+            </form>
+        </article>
+    </section>
+    <footer>
+        <p>
+            © 2022 KOFGYM. Powered by <a href="http://kofcorporation.com"><b>KofCorporation</b></a>
+        </p>
+        <div class="réseaux">
+            <a href="https://www.facebook.com/KofCorporation" target="_blank"><img src="facebook.png" alt="icone Facebook"></a>
+            <a href="https://www.instagram.com/kofcorporation.tg/" target="_blank"><img src="instagram.png" alt="icone Insta"></a>
+            <a href="https://www.linkedin.com/company/kofcorporation" target="_blank"><img src="linkedin.png" alt="icone Linkedin"></a>
+            <a href="https://twitter.com/CoporationKof" target="_blank"><img src="twitter.png" alt="icone Twitter"></a>
+            <a href="https://snapchat.com/add/ofarouk35" target="_blank"><img src="snapchat.png" alt="icone Snapchat"></a>
+        </div>
+    </footer>
+</body>
+</html>
